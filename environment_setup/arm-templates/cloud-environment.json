@@ -34,7 +34,7 @@
     },
     "acr": {
       "type": "string",
-      "defaultValue": "[concat(toLower(parameters('baseName')),'aml-cr')]"
+      "defaultValue": "[concat(toLower(parameters('baseName')),'amlpycr')]"
     },
     "sku": {
       "type": "string",
